@@ -53,6 +53,10 @@ p span.i4{
 blockquote[xml|lang]{
 	font-style: italic;
 }
+
+p[xml|lang]{
+	font-style: italic;
+}
 /* end language styling */
 
 /* letters */
