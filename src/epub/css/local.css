@@ -147,3 +147,11 @@ section > header [epub|type~="epigraph"] + *{
 	text-indent: 0;
 }
 /* end bridgehead */
+
+/* last line */
+#epilogue blockquote[epub|type~="z3998:song"] + p{
+	margin-top: 2em;
+	text-align: center;
+	text-indent: 0;
+}
+/* end last line */
