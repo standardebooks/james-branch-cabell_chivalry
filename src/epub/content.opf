@@ -28,6 +28,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Chivalry</dc:title>
 		<meta property="file-as" refines="#title">Chivalry</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Dizain des Reines</dc:title>
+		<meta property="file-as" refines="#subtitle">Dizain des Reines</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Chivalry: Dizain des Reines</dc:title>
+		<meta property="file-as" refines="#fulltitle">Chivalry: Dizain des Reines</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">Fantasy fiction</dc:subject>
 		<dc:subject id="subject-3">Middle Ages -- Fiction</dc:subject>
@@ -37,37 +44,49 @@
 		<meta property="term" refines="#subject-2">sh85047114</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008107176</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Biography of the Life of Manuel</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">5</meta>
+		<dc:description id="description">A collection of loosely connected stories of courtly love in medieval France and England.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Chivalry&lt;/i&gt; is the fifth installment in &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell’s&lt;/a&gt; &lt;a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel"&gt;Biography of the Life of Manuel&lt;/a&gt;. It is framed as a retelling of some romantic tales laid down by a Nicolas of Caen in 1470. These are set in the historical context of medieval France and England, with many recognizable kings, queens and other nobles. Characters take on the role of troubadour throughout, picking up lutes and singing of their love and devotion. Courtly love is portrayed by knights and maidens as they make difficult sacrifices to preserve their honor and prove their love.&lt;/p&gt;
+			&lt;p&gt;The subtitle “Dizain des reines” refers to a ten-line stanza that was used in French poetry in the 15th and 16th centuries. Here it corresponds to the ten stories and their respective queens.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell&lt;/a&gt; is known as a writer of fantasy and historical fiction. Chivalry was first written in 1909. Later, Cabell developed the idea of putting many of his works into a biographical series that traces the life and legacy of the fictional Dom Manuel. He revised &lt;i&gt;Chivalry&lt;/i&gt; in 1921 to work Manuel into the storyline and connect it to his other works. A more contemporary critic thought that Cabell ruined his career, and ended in obscurity, by bundling emphermal and substandard work into his series.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/11752</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/chivalrydizainde00cabe</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Chivalry</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/james-branch-cabell_chivalry</meta>
 		<dc:creator id="author">James Branch Cabell</dc:creator>
 		<meta property="file-as" refines="#author">Cabell, James Branch</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/James_Branch_Cabell</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80039689</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#artist">Anonymous</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Joris Van Dael</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Van Dael, Joris</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Susan Lucy</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Lucy, Susan</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-4">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Jason Livermore</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Livermore, Jason</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/jason-livermore-b854a97</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
