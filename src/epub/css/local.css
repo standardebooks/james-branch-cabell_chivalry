@@ -177,3 +177,18 @@ section > header [epub|type~="epigraph"] + *{
 	margin-top: 1em;
 }
 /* end subchapter headings */
+
+/* editorial div */
+#chapter-7 div{
+	font-style: italic;
+	margin-top: 1em;
+}
+
+#chapter-7 div > p{
+	text-indent: 1em;
+}
+
+#chapter-7 div + p{
+	margin-top: 1em;
+}
+/* end editorial div */
