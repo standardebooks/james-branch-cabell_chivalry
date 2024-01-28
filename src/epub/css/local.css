@@ -167,3 +167,13 @@ section > header [epub|type~="epigraph"] + *{
 	text-indent: 0;
 }
 /* end special dedication lines */
+
+/* subchapter headings */
+[epub|type~="z3998:subchapter"]{
+	margin-top: 2em;
+}
+
+[epub|type~="z3998:subchapter"] > header + p{
+	margin-top: 1em;
+}
+/* end subchapter headings */
