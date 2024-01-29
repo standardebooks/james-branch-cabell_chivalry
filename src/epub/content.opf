@@ -68,8 +68,10 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
-		<dc:contributor id="artist">Anonymous</dc:contributor>
-		<meta property="file-as" refines="#artist">Anonymous</meta>
+		<dc:contributor id="artist">Howard Pyle</dc:contributor>
+		<meta property="file-as" refines="#artist">Pyle, Howard</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Howard_Pyle</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79072830</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
