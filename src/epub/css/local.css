@@ -157,14 +157,9 @@ section > header [epub|type~="epigraph"] + *{
 /* end last line */
 
 /* special dedication lines */
-#epilogue header + p{
-	text-align: center;
-}
-
-#epilogue header + p + p,
-#prologue header + p + p{
+#epilogue header > p,
+#prologue header > p{
 	margin-top: 1em;
-	text-indent: 0;
 }
 /* end special dedication lines */
 
