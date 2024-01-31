@@ -162,27 +162,21 @@ section > header [epub|type~="epigraph"] + *{
 }
 /* end special dedication lines */
 
-/* subchapter headings */
-[epub|type~="z3998:subchapter"]{
-	margin-top: 2em;
+/* headers */
+section[epub|type~="z3998:subchapter"] > header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
 }
-
-[epub|type~="z3998:subchapter"] > header + p{
-	margin-top: 1em;
-}
-/* end subchapter headings */
+/* end headers */
 
 /* editorial div */
 #chapter-7 div{
 	font-style: italic;
-	margin-top: 1em;
+	margin: 1em 0 1em 0;
 }
 
 #chapter-7 div > p{
 	text-indent: 1em;
-}
-
-#chapter-7 div + p{
-	margin-top: 1em;
 }
 /* end editorial div */
