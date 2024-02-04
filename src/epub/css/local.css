@@ -149,6 +149,7 @@ section > header [epub|type~="epigraph"] + *{
 
 /* last line */
 #epilogue blockquote[epub|type~="z3998:song"] + p{
+	font-variant: small-caps;
 	margin-top: 2em;
 	text-align: center;
 	text-indent: 0;
