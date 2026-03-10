@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="epilogue.xhtml">
 		<ignore code="y-003">
+			<line>87</line>
 			<reason>Ending paragraph is a "finis".</reason>
 		</ignore>
 	</file>
